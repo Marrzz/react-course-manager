@@ -1,11 +1,9 @@
-import React from 'react'
+import React from 'react';
 
-function Button({color, text, onClick}) {
-    
-
+function Button({ color, text, onClick }) {
     return (
-        <button onClick={onClick} style={{backgroundColor: color}} className="btn">{text}</button>
+        <button onClick={onClick} style={{ backgroundColor: color }} className="btn">{text}</button>
     )
 }
 
-export default Button
+export default Button;
