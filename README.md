@@ -14,6 +14,11 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 The page will reload if you make edits.\
 You will also see any lint errors in the console.
 
+### `npm start server`
+
+Runs a mock REST API on [http://localhost:5500](http://localhost:5500), which will read and write into db.json. You can change the port in package.json.<br/>
+For more info on the library I used, head over [here](https://github.com/typicode/json-server)
+
 ### `npm test`
 
 Launches the test runner in the interactive watch mode.\
